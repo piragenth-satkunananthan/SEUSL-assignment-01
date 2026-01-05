@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | SEUSL Coffee</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">SEUSL <span>Coffee</span></a>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="about.html" class="active">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="cart.html"><i class="fas fa-shopping-cart"></i> <span class="cart-count"
+                            style="display: none; background: var(--accent-color); color: white; border-radius: 50%; padding: 2px 6px; font-size: 0.8rem; vertical-align: top;">0</span></a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header"
+        style="padding-top: 120px; padding-bottom: 40px; text-align: center; background-color: var(--bg-light);">
+        <div class="container">
+            <h1 style="font-size: 3rem; margin-bottom: 10px;">Our Story</h1>
+            <p style="color: #666;">More than just coffee, it's a community.</p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="about-content" style="padding: 60px 5%;">
+        <div class="container">
+            <div class="about-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 50px; align-items: center;">
+                <div class="about-text animate-on-scroll">
+                    <h2 style="margin-bottom: 20px; color: var(--primary-color);">A Passion for Quality</h2>
+                    <p style="margin-bottom: 20px;">Founded in the heart of Oluvil, SEUSL Coffee started with a simple
+                        mission: to serve the best coffee to our university community. We believe that a great cup of
+                        coffee can inspire great ideas and foster meaningful connections.</p>
+                    <p style="margin-bottom: 20px;">We source our beans from sustainable farms and roast them locally to
+                        ensure freshness in every cup. Our baristas are trained to craft each drink with precision and
+                        care.</p>
+                    <div class="values" style="display: flex; gap: 20px; margin-top: 30px;">
+                        <div class="value-item">
+                            <i class="fas fa-heart"
+                                style="color: var(--accent-color); font-size: 1.5rem; margin-bottom: 10px;"></i>
+                            <h4 style="margin-bottom: 5px;">Passion</h4>
+                            <p style="font-size: 0.9rem;">We love what we do.</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-users"
+                                style="color: var(--accent-color); font-size: 1.5rem; margin-bottom: 10px;"></i>
+                            <h4 style="margin-bottom: 5px;">Community</h4>
+                            <p style="font-size: 0.9rem;">Building connections.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image animate-on-scroll">
+                    <img src="./assets/about_section.jpg" alt="Our Coffee Shop"
+                        style="border-radius: var(--border-radius); box-shadow: var(--shadow-md);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team/Community Section -->
+    <section class="community" style="padding: 60px 5%; background-color: var(--bg-light);">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>Our Community</h2>
+                <p>We are proud to be part of the SEUSL family.</p>
+            </div>
+            <div class="community-image animate-on-scroll" style="text-align: center;">
+                <img src="./assets/front of seusl.jpg" alt="SEUSL Campus"
+                    style="max-width: 800px; width: 100%; margin: 0 auto; border-radius: var(--border-radius); box-shadow: var(--shadow-md);">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>SEUSL Coffee</h3>
+                    <p>Bringing the finest coffee experience to our university community and beyond.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> University Park, Oluvil</li>
+                        <li><i class="fas fa-phone"></i> +94 67 2255062</li>
+                        <li><i class="fas fa-envelope"></i> vcseu@seu.ac.lk</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="social-links" style="font-size: 1.5rem; display: flex; gap: 15px;">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 SEUSL Coffee. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="cart.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

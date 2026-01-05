@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | SEUSL Coffee</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">SEUSL <span>Coffee</span></a>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="menu.html" class="active">Menu</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="cart.html"><i class="fas fa-shopping-cart"></i> <span class="cart-count"
+                            style="display: none; background: var(--accent-color); color: white; border-radius: 50%; padding: 2px 6px; font-size: 0.8rem; vertical-align: top;">0</span></a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header"
+        style="padding-top: 120px; padding-bottom: 40px; text-align: center; background-color: var(--bg-light);">
+        <div class="container">
+            <h1 style="font-size: 3rem; margin-bottom: 10px;">Our Menu</h1>
+            <p style="color: #666;">Crafted with passion, served with love.</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" style="padding: 40px 5%;">
+        <div class="container">
+            <!-- Filter Buttons -->
+            <div class="menu-filters" style="text-align: center; margin-bottom: 40px;">
+                <button class="btn btn-primary" style="margin: 5px;">All</button>
+                <button class="btn btn-outline" style="margin: 5px;">Hot Coffee</button>
+                <button class="btn btn-outline" style="margin: 5px;">Cold Brews</button>
+                <button class="btn btn-outline" style="margin: 5px;">Pastries</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Hot Coffee -->
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-img">
+                        <img src="./assets/espresso-coffee.png" alt="Espresso">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <span class="menu-title">Espresso</span>
+                            <span class="menu-price">$3.50</span>
+                        </div>
+                        <p>A concentrated shot of rich, bold coffee.</p>
+                        <button class="btn btn-primary add-to-cart" data-id="1" data-name="Espresso" data-price="3.50"
+                            style="width: 100%; margin-top: 10px; font-size: 0.9rem;">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-img">
+                        <img src="./assets/Cappuccino.png" alt="Cappuccino">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <span class="menu-title">Cappuccino</span>
+                            <span class="menu-price">$4.50</span>
+                        </div>
+                        <p>Espresso with steamed milk and a thick layer of foam.</p>
+                        <button class="btn btn-primary add-to-cart" data-id="2" data-name="Cappuccino" data-price="4.50"
+                            style="width: 100%; margin-top: 10px; font-size: 0.9rem;">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-img">
+                        <img src="./assets/lattee.png" alt="Latte">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <span class="menu-title">Cafe Latte</span>
+                            <span class="menu-price">$5.00</span>
+                        </div>
+                        <p>Espresso with steamed milk and a light layer of foam.</p>
+                        <button class="btn btn-primary add-to-cart" data-id="3" data-name="Cafe Latte" data-price="5.00"
+                            style="width: 100%; margin-top: 10px; font-size: 0.9rem;">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-img">
+                        <img src="./assets/vecteezy_latte-coffee-isolated-illustration_23742327.png" alt="Mocha">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <span class="menu-title">Caffe Mocha</span>
+                            <span class="menu-price">$5.50</span>
+                        </div>
+                        <p>Espresso with chocolate syrup and steamed milk.</p>
+                        <button class="btn btn-primary add-to-cart" data-id="4" data-name="Caffe Mocha"
+                            data-price="5.50" style="width: 100%; margin-top: 10px; font-size: 0.9rem;">Add to
+                            Cart</button>
+                    </div>
+                </div>
+                <!-- Cold Brews -->
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-img">
+                        <img src="./assets/lattee.png" alt="Iced Coffee" style="filter: hue-rotate(180deg);">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <span class="menu-title">Iced Coffee</span>
+                            <span class="menu-price">$4.00</span>
+                        </div>
+                        <p>Chilled brewed coffee served over ice.</p>
+                        <button class="btn btn-primary add-to-cart" data-id="5" data-name="Iced Coffee"
+                            data-price="4.00" style="width: 100%; margin-top: 10px; font-size: 0.9rem;">Add to
+                            Cart</button>
+                    </div>
+                </div>
+                <div class="menu-item animate-on-scroll">
+                    <div class="menu-img">
+                        <img src="./assets/Cappuccino.png" alt="Frappe" style="filter: sepia(0.5);">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <span class="menu-title">Caramel Frappe</span>
+                            <span class="menu-price">$6.00</span>
+                        </div>
+                        <p>Blended ice coffee with caramel and whipped cream.</p>
+                        <button class="btn btn-primary add-to-cart" data-id="6" data-name="Caramel Frappe"
+                            data-price="6.00" style="width: 100%; margin-top: 10px; font-size: 0.9rem;">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>SEUSL Coffee</h3>
+                    <p>Bringing the finest coffee experience to our university community and beyond.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> University Park, Oluvil</li>
+                        <li><i class="fas fa-phone"></i> +94 67 2255062</li>
+                        <li><i class="fas fa-envelope"></i> vcseu@seu.ac.lk</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="social-links" style="font-size: 1.5rem; display: flex; gap: 15px;">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 SEUSL Coffee. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="cart.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
